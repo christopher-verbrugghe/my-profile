@@ -1,0 +1,128 @@
+
+/*Colors and fonts*/
+body {
+	background-color: #F7F9FC;
+	color: #575F7D;
+	font-family: 'Bitter', serif;
+	font-size: 17px;
+	font-weight: lighter;
+	
+}
+
+h1, h2 {
+
+	font-family: 'Be Vietnam', sans-serif;
+	
+
+}
+
+h1{
+	color: #707A96;
+	font-size: 32px
+	font-weight: 700;
+
+}
+
+h2{
+	color: #7ECE90;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+
+
+}
+
+a{
+	font-family: 'Bitter'
+	text-decoration: none;
+	color : #6B72E1;
+	font-weight: 600;
+	font-size: 15px
+}
+
+a:hover {
+  color: black;
+}
+
+/* Custom design with class */
+
+.container {
+
+	width: 700px;
+	margin: 40px auto
+
+}
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+		}
+	}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 50px;
+	width: 40%;
+
+}
+
+.bouton {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.bouton:hover {
+	background-color: white;
+	color: #6B72E1;
+	border: 2px solid #6B72E1;
+	transition: 500ms;
+}
+
+
+#social_networks{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+#social_networks a{
+    color: #F9F2EA;
+    background-color: #464F6D;
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+	justify-content: center;
+	align-items: center;
+    border-radius: 50%;
+
+}
+#social_networks a:hover{
+    background-color: #F9F2EA;
+    color: #464F6D;
+    border-radius: 50%;
+    border: 2px solid #FF9D9B;
+}
+
+
+
